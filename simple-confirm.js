@@ -10,8 +10,8 @@ confirmModule.value('$confirmDefaults', {
     '</div>' +
     '<div class="modal-body" ><span ng-style="{fontSize:\'15px\'}">{{data.content}}</span></div>' +
     '<div class="modal-footer">' +
-    '<button type="button" class="btn btn-default" ng-click="answer(\'no\')">{{ data.cancelB }}</button>' +
-    '<button type="button" class="btn btn-danger" ng-click="answer(\'yes\')">{{ data.confirmB }}</button>' +
+    '<button type="button" class="btn btn-default" ng-click="answer(\'no\')">{{ data.cancel }}</button>' +
+    '<button type="button" class="btn btn-danger" ng-click="answer(\'yes\')">{{ data.confirm }}</button>' +
     '</div>' +
     '</div>' +
     '</div>' +
@@ -20,8 +20,8 @@ confirmModule.value('$confirmDefaults', {
     defaultLabels: {
         title: 'Confirm',
         content: 'Are you sure?',
-        cancelB: 'Cancel',
-        confirmB: 'Confirm'
+        cancel: 'Cancel',
+        confirm: 'Confirm'
     }
 });
 
